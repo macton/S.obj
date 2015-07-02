@@ -1,0 +1,22 @@
+{
+  "name": "s.obj",
+  "version": "1.0.0",
+  "description": "S.obj - Objects",
+  "main": "s.obj.js",
+  "scripts": {
+    "test": "node test/test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/macton/S.obj.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/macton/S.obj/issues"
+  },
+  "homepage": "https://github.com/macton/S.obj#readme",
+  "dependencies": {
+    "s": "macton/S"
+  }
+}

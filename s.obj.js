@@ -19,6 +19,16 @@ var obj = {
       return value > max ? value : max;
     }, 0);
   }),
+  merge: S.curry( function( a, b ) {
+    var obj = {};
+    Object.keys( a ).forEach( function( key ) {
+      obj[ key ] = a[ key ];
+    });
+    Object.keys( b ).forEach( function( key ) {
+      obj[ key ] = b[ key ];
+    });
+    return obj;
+  }),
   def: {
     lazy: function(fn) {
       var value;
